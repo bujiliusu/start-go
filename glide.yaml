@@ -1,0 +1,3 @@
+package: start-go
+import:
+- package: github.com/easierway/concurrent_map

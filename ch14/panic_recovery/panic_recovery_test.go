@@ -16,6 +16,3 @@ func TestPanicVxExit(t *testing.T){
 	fmt.Println("Start!")
 	panic(errors.New("Something wrong!"))
 }
-//package 基本复用单元，以首字母大写表明可被包外代码访问
-//代码的package可以和所在的目录不一致
-//同一目录的Go代码的package要保持一致
